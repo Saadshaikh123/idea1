@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main h1{
+    text-align: center;
+    font-size: 4em;
+    color: red;
+    margin-top: 0;
+    font-weight: 900px;
+    font-family: monospace;    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+  }
+
+.sidebar{
+    background-image: url('back.PNG');
+    margin-left:25%;
+    padding:1px 16px;
+}
+
+.sidebar h2{
+    color: red;
+    font-size: 3em;
+}
